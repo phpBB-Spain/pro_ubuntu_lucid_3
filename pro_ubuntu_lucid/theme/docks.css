@@ -1,0 +1,74 @@
+/* Top and bottom decorative docks for the Ubuntu style */
+
+#top-dock
+{
+	height: 26px;
+	margin: 0px;
+	background: #5c5b56 url(./images/dock-top-repeat.gif) repeat-x bottom;
+}
+#top-dock-left
+{
+	height: 26px;
+	padding-left: 40px;
+	margin: 0px;
+	background: url(./images/dock-top-decorate.gif) no-repeat bottom left;
+}
+#top-dock-left ul.linklist
+{
+	height: 26px;
+}
+#top-dock-left ul.leftside
+{
+	float: left;
+}
+#top-dock-left ul.rightside
+{
+	float: right;
+	text-align: right;
+	margin-right: 5px;
+}
+#top-dock-left ul.linklist li
+{
+	line-height: 20px;
+}
+
+#bottom-dock
+{
+	height: 26px;
+	background-color: #3c3b37;
+	margin: 0px;
+	padding: 0px 5px;
+	background: #3c3b37 url(./images/dock-bottom-center.gif) repeat-x;
+}
+#bottom-dock-right
+{
+	background: url(./images/dock-bottom-right.png) no-repeat right;
+}
+#bottom-dock ul.linklist
+{
+	padding: 0px;
+	height: 26px;
+}
+#bottom-dock ul.linklist li.icon-home
+{
+	float: left;
+	line-height: 20px;
+	margin-top: 0px;
+	height: 26px;
+	padding-top: 3px;
+	padding-left: 20px;
+}
+#bottom-dock ul.linklist li.rightside
+{
+	float: right;
+	line-height: 20px;
+	margin-top: 0px;
+	height: 26px;
+	padding-top: 3px;
+	padding-right: 30px;
+}
+#bottom-dock .icon-home
+{
+	background: url(./images/dock-bottom-left.png) no-repeat;
+	text-indent: 12px;
+}
