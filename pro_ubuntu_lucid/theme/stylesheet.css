@@ -74,8 +74,8 @@ hr.dashed {
 }
 
 #page-footer .navbar {
-	background-color: #3C3B37;
-	background-image: url(./images/bg_list.png);
+    border-top-color: #772953;
+    background-color: #3B1830;
 }
 
 #page-body {
@@ -126,13 +126,19 @@ hr.dashed {
 }
 
 .forabg {
-	background-color: #3c3b37;
-	background-image: url(./images/bg_list.png);
+	background: #45484d;
+	background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+	background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
 }
 
 .forumbg {
-	background-color: #3C3B37;
-	background-image: url(./images/bg_list.png);
+	background: #45484d;
+	background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+	background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
 }
 
 .panel {
@@ -751,10 +757,6 @@ blockquote {
 	border-width: 1px;
 }
 
-.rtl blockquote {
-	background-image: url("{T_THEME_PATH}/images/quote_rtl.gif");
-}
-
 blockquote blockquote {
 	/* Nested quotes */
 	background-color: #E2D5BF;
@@ -858,7 +860,6 @@ fieldset.polls dd div {
 .rtl .pollbar1, .rtl .pollbar2, .rtl .pollbar3, .rtl .pollbar4, .rtl .pollbar5 {
 	border: none;
 }
-
 
 /* Poster profile block */
 .postprofile {
