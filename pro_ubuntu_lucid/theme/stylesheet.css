@@ -1248,6 +1248,10 @@ ul.topiclist li.row dl {
     text-shadow: 2px 2px 3px #F6CCA8;
 }
 
+ul.navlinks {
+    border-top-color: #DF6B6E;
+}
+
 /* Small changes responsive Pro Ubuntu Lucid - START */
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
