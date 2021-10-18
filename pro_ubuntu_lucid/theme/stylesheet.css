@@ -1252,6 +1252,11 @@ ul.navlinks {
     border-top-color: #DF6B6E;
 }
 
+p.post-notice {
+    background-color: #3B1830;
+    background-image: none;
+}
+
 /* Small changes responsive Pro Ubuntu Lucid - START */
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
