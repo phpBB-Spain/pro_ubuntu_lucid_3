@@ -8,7 +8,7 @@
     --------------------------------------------------------------
 */
 
-@import url("docks.css?v=3.3.9");
+@import url("docks.css?v=3.3.10");
 
 html {
 	background-color: #3C3B37;
@@ -1317,3 +1317,9 @@ ul.navlinks {
 }
 
 /* Small changes responsive Pro Ubuntu Lucid - END */
+
+/* CSS Extensions */
+
+#phpbb_announcement {
+	background-color: #76415D; /* default color */
+}
